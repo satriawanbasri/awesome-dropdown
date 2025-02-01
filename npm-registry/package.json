@@ -1,32 +1,43 @@
 {
-  "version": "1.0.4",
-  "name": "awesome-dropdown",
-  "description": "awesome-dropdown UI library for web",
-  "license": "MIT",
-  "keywords": [
-    "awesome-dropdown"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/satriawanbasri/awesome-dropdown.git"
-  },
-  "homepage": "https://github.com/satriawanbasri",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "webpack"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.26.3",
-    "babel-loader": "^9.2.1",
-    "css-loader": "^7.1.2",
-    "style-loader": "^4.0.0",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
-  }
+    "name": "awesome-dropdown",
+    "version": "1.0.5",
+    "description": "awesome-dropdown UI library for web",
+    "license": "MIT",
+    "keywords": [
+        "awesome-dropdown"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/satriawanbasri/awesome-dropdown.git"
+    },
+    "homepage": "https://github.com/satriawanbasri",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "author": "Satriawan Basri <satriawan.basri@gmail.com>",
+    "devDependencies": {
+        "tsc": "^2.0.4",
+        "typescript": "^4.0.0"
+    },
+    "peerDependencies": {
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    },
+    "prettier": {
+        "jsxBracketSameLine": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "arrowParens": "avoid",
+        "semi": false,
+        "printWidth": 150
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.6.0",
+        "react": "^18.3.1"
+    }
 }
