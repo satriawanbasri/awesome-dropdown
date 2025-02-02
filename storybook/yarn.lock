@@ -3524,10 +3524,10 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-awesome-dropdown@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/awesome-dropdown/-/awesome-dropdown-1.0.11.tgz#5a3cb6625711c0fd04822b6fc83538e9ca5c1f96"
-  integrity sha512-bUCnX2YavO/5HtcDwZ30Uel2OZpIOugOrwiECwmbF07XHkFkI32k3IBGshMBe17cU3KIJrpREcdS83ThIH8w4g==
+awesome-dropdown@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/awesome-dropdown/-/awesome-dropdown-1.0.14.tgz#52d29e4f44f418b2110b993c230ca8792a463932"
+  integrity sha512-/DPxqnrueQXvzgdWrH4pt28lcTJcF41nilEOT+k/2qkdFjP2waBQRaVuOSOqZiGgrrIItYIMsHR8g7VycOqV7A==
   dependencies:
     react "^18.3.1"
     react-dom "^19.0.0"

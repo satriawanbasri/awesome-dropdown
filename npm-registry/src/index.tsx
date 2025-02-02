@@ -174,4 +174,4 @@ const AwesomeDropdown: FC<AwesomeDropdownProps> = ({
     return portal && portalTarget ? createPortal(dropdownContent, portalTarget) : dropdownContent
 }
 
-export default { AwesomeDropdown }
+export { AwesomeDropdown }
